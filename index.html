@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--En head se almacenan meta datos para poder renderizar mi pagina web-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfiriato Panes y Postres</title>
 </head>
 <body>
-    <!--Esta es la forma de dejar notas en el codigo, Cabecera de mi pagina web-->
+    <!--Header es una etiqueta semantica que indica que es una cabecera-->
     <header>
-        <h1>Influencia de la cocina francesa en la gastronomia mexicana</h1>
-        <img src="./images/Evento-p.JPG" alt="Imagen evento Porfiriato">
-        <!--img, src= ruta alt=descripcion-->
-        <nav>
-            <ul>
-                <li><a href="#introduccion">Recetas</a></li>
-                <li><a href="#recetas">Historia</a></li>
-            </ul>
+        <div style="text-align: center;">
+            <h1 style="color:blue;">Influencia de la cocina francesa en la gastronomia mexicana</h1>
+            <img src="./images/Evento-p.JPG" alt="Imagen evento Porfiriato" width="500px">
+            <!--img, src= ruta alt=descripcion-->
+            <nav>
+                <ul>
+                    <li><a href="#introduccion">Recetas</a></li>
+                    <li><a href="#recetas">Historia</a></li>
+                </ul>
         </nav>
+        </div>
     </header>
     
     <section id="introducción">
-        1.	Sabores del Porfiriato: La influencia francesa en la panadería y repostería mexicana.
-        Un bocado de historia. 
+        <h2>Descripciones</h2>
+        <p style="font-size: 20px; color:purple;">1.Sabores del Porfiriato: <strong>influencia francesa en la panadería y repostería mexicana.Un bocado de historia.</strong>  
         <br>
-        2.	Durante el Porfiriato (1876-1911), la influencia francesa en México estuvo ligada a la comida, especialmente a la panadería y repostería. <br> Descubre como deliciosos postres y panes se adaptaron al gusto mexicano, dando origen a productos que consumimos hoy en día. <br> Conoce más sobre nuestro patrimonio dulce y aprende sobre sus sabores únicos
+        2.	Durante el Porfiriato (1876-1911), la influencia francesa en México estuvo ligada a la comida, especialmente a la panadería y repostería. <br> Descubre como deliciosos postres y panes se adaptaron al gusto mexicano, dando origen a productos que consumimos hoy en día. <br> <span style="color:blueviolet">más sobre nuestro patrimonio dulce y aprende sobre sus sabores únicos</span> 
         
     </section>
 
@@ -32,7 +35,7 @@
         <!--Esta es una lista desordenada-->
         <ul>
             <li>Jalea de Tejocote</li>
-            <li>Orejas</li>
+            <li><em> Orejas</em></li> <!--con em es para ponerlas-->
             <li>Bolillos</li>
             <li>Merengues</li>
         </ul>
